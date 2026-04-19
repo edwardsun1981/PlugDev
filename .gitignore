@@ -1,0 +1,45 @@
+# Visual Studio / MSBuild
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.ncb
+*.aps
+*.VC.db
+*.VC.VC.opendb
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+ARM64/
+ipch/
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+*.tlog
+*.log
+*.idb
+*.pch
+*.pchast
+*.res
+*.cache
+*.bak
+*.tmp
+
+# SVN
+.svn/
+
+# Project-specific
+temp/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

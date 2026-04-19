@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="..\..\Bin\PlugProject_dll.dll"/>
+    <OBJFILES value="Obj\PlugProject.obj"/>
+    <RESFILES value="PlugProject_dll.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="rtl.lib"/>
+    <SPARELIBS value="rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi vcldb.bpi vclx.bpi bdertl.bpi vcldbx.bpi 
+      ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi teedb.bpi 
+      tee.bpi dss.bpi teeqr.bpi visualclx.bpi dsnapcrba.bpi dsnapcon.bpi 
+      bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi inetdbbde.bpi inetdbxpress.bpi 
+      inetdb.bpi nmfast.bpi webdsnap.bpi bcbie.bpi websnap.bpi soaprtl.bpi 
+      dclocx.bpi dbexpress.bpi dbxcds.bpi indy.bpi bcb2kaxserver.bpi 
+      SUISkin_BCB.bpi GifAnimate.bpi"/>
+    <PATHCPP value=".;..\Src"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="PlugProject_dll.bpf"/>
+    <INCLUDEPATH value="..\Src;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\..;..\..\..\..;..\..\..\..\..;..\..\..\..\..\.."/>
+    <LIBPATH value="..\Src;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026 -w-aus"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\Src -I$(BCB)\include -I$(BCB)\include\vcl -I.. -I..\.. -I..\..\.. 
+      -I..\..\..\.. -I..\..\..\..\.. -I..\..\..\..\..\.. -src_suffix cpp 
+      -D_DEBUG -boa"/>
+    <CFLAG1 value="-WD -Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- 
+      -tWD -tWM -c"/>
+    <PFLAGS value="-N2Obj -N0Obj -$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-lObj -IObj -D&quot;&quot; -aa -Tpd -x -Gn -Gi -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0d32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="PlugProject_dll.bpf" FORMNAME="" UNITNAME="PlugProject_dll" CONTAINERID="BPF" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\Src\PlugProject.cpp" FORMNAME="" UNITNAME="PlugProject" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PlugProject_dll.res" FORMNAME="" UNITNAME="PlugProject_dll.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=0
+Build=1
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.1
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=13
+Item0=..\Src;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\..;..\..\..\..;..\..\..\..\..;..\..\..\..\..\..;..\..\..\..\..\..\..;..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..\..\..\..
+Item1=..\Src;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\..;..\..\..\..;..\..\..\..\..;..\..\..\..\..\..
+Item2=..\Src;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\..;..\..\..\..;..\..\..\..\..;..\..\..\..\..\..;..\..\..\..\..\..\..;..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..
+Item3=..\Src;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\..;..\..\..\..;..\..\..\..\..;..\..\..\..\..\..;..\..\..\..\..\..\..;..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..\..\..
+Item4=..\Src;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\..;..\..\..\..;..\..\..\..\..
+Item5=..\Src;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\..;..\..\..\..;..\..\..\..\..;..\..\..\..\..\..;..\..\..\..\..\..\..;..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..\..\..\..;..\..\..\..\..\..\..\..\..\..\..\..\..\..\..
+Item6=..\Src;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\..;..\..\..\..
+Item7=..\Src;D:\temp\bcb;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\..;..\..\..\..;..\..\..\..\..
+Item8=..\Src;D:\temp\bcb;$(BCB)\include;$(BCB)\include\vcl;..;..\..;..\..\;..\..\..\;..\..\..\..\;..\..\..\..\..\;..\..\..\..\..\..\;..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\;..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\..\
+Item9=..\Src;D:\temp\bcb;$(BCB)\include;$(BCB)\include\vcl;..;..\..
+Item10=D:\temp\bcb;$(BCB)\include;$(BCB)\include\vcl;..;..\..
+Item11=D:\temp\bcb;$(BCB)\include;$(BCB)\include\vcl; ..\; ..\..\
+Item12=D:\temp\bcb;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=..\Src;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\Src;$(BCB)\Projects\Lib;D:\temp\bcb;$(BCB)\lib\obj;$(BCB)\lib
+Item2=$(BCB)\Projects\Lib;D:\temp\bcb;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=3
+Item0=Obj
+Item1=Debug
+Item2=Debug\
+
+[HistoryLists\hlFinalOutputDir]
+Count=4
+Item0=..\..\Bin\
+Item1=..\..\Bin
+Item2=Debug\
+Item3=Debug
+
+[HistoryLists\hIBPIOutputDir]
+Count=2
+Item0=Obj
+Item1=Debug
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+
+[Linker]
+LibPrefix=
+LibSuffix=
+LibVersion=
+  </IDEOPTIONS>
+</PROJECT>

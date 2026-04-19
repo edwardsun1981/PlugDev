@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A4927F5C10A0D89300676138 /* Test */;
+		activeTarget = 8DD76F620486A84900D96B5E /* Test */;
+		addToTargets = (
+			8DD76F620486A84900D96B5E /* Test */,
+		);
+		breakpoints = (
+			A413D0DA0EC4ED470046961B /* PlugLoadDll.h:133 */,
+			A413D0DD0EC4ED490046961B /* PlugLoadDll.h:126 */,
+			A413D0E40EC4EE3D0046961B /* PlugLoadDll.h:131 */,
+			A413D0E80EC4EF6C0046961B /* PlugLoadDll.h:124 */,
+			A4DE3C3A0ED93D9100F3F0B4 /* Test.cpp:17 */,
+		);
+		breakpointsGroup = A4927FAA10A0DB0500676138 /* XCBreakpointsBucket */;
+		codeSenseManager = A4927F6710A0D89E00676138 /* Code sense */;
+		executables = (
+			A4927F5C10A0D89300676138 /* Test */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					131,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					243,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					200,
+					63,
+					20,
+					48.1626,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 249118032;
+			PBXWorkspaceStateSaveDate = 249118032;
+		};
+		sourceControlManager = A4927F6610A0D89E00676138 /* Source Control */;
+		userBuildSettings = {
+			SYMROOT = ../../Bin;
+		};
+	};
+	8DD76F620486A84900D96B5E /* Test */ = {
+		activeExec = 0;
+		executables = (
+			A4927F5C10A0D89300676138 /* Test */,
+		);
+	};
+	A413D0C30EC4ECCD0046961B /* Test.cpp:5 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = A4927F8B10A0D98C00676138 /* Test.cpp */;
+		functionName = "main()";
+		hitCount = 1;
+		lineNumber = 5;
+		location = Test;
+		modificationTime = 249118071.082359;
+		state = 1;
+	};
+	A413D0D80EC4ED470046961B /* PlugLoadDll.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = PlugLoadDll.h;
+		path = "/Users/sun/Desktop/Develope/other/Plug5.0 boost/PlugTool/sys/Plug/PlugLoadDll.h";
+		sourceTree = "<absolute>";
+	};
+	A413D0DA0EC4ED470046961B /* PlugLoadDll.h:133 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = A413D0D80EC4ED470046961B /* PlugLoadDll.h */;
+		functionName = "InitPlug()";
+		hitCount = 1;
+		lineNumber = 133;
+		location = Test;
+		modificationTime = 249118062.416689;
+		state = 1;
+	};
+	A413D0DB0EC4ED490046961B /* PlugLoadDll.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = PlugLoadDll.h;
+		path = "/Users/sun/Desktop/Develope/other/Plug5.0 boost/PlugTool/sys/Plug/PlugLoadDll.h";
+		sourceTree = "<group>";
+	};
+	A413D0DD0EC4ED490046961B /* PlugLoadDll.h:126 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = A413D0DB0EC4ED490046961B /* PlugLoadDll.h */;
+		functionName = "InitPlug()";
+		hitCount = 1;
+		lineNumber = 126;
+		location = Test;
+		modificationTime = 249118101.60858;
+		state = 1;
+	};
+	A413D0E20EC4EE3D0046961B /* PlugLoadDll.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = PlugLoadDll.h;
+		path = "/Users/sun/Desktop/Develope/other/Plug5.0 boost/PlugTool/sys/Plug/PlugLoadDll.h";
+		sourceTree = "<group>";
+	};
+	A413D0E40EC4EE3D0046961B /* PlugLoadDll.h:131 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = A413D0E20EC4EE3D0046961B /* PlugLoadDll.h */;
+		functionName = "InitPlug()";
+		hitCount = 1;
+		lineNumber = 131;
+		location = Test;
+		modificationTime = 249118062.416703;
+		state = 1;
+	};
+	A413D0E60EC4EF6C0046961B /* PlugLoadDll.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = PlugLoadDll.h;
+		path = "/Users/sun/Desktop/Develope/other/Plug5.0 boost/PlugTool/sys/Plug/PlugLoadDll.h";
+		sourceTree = "<group>";
+	};
+	A413D0E80EC4EF6C0046961B /* PlugLoadDll.h:124 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = A413D0E60EC4EF6C0046961B /* PlugLoadDll.h */;
+		functionName = "InitPlug()";
+		hitCount = 1;
+		lineNumber = 124;
+		location = Test;
+		modificationTime = 249118098.75027;
+		state = 1;
+	};
+	A4927F5C10A0D89300676138 /* Test */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Test;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	A4927F6610A0D89E00676138 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	A4927F6710A0D89E00676138 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A4927F8B10A0D98C00676138 /* Test.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1233, 364}}";
+			sepNavSelRange = "{326, 0}";
+			sepNavVisRect = "{{0, 23}, {1233, 275}}";
+			sepNavWindowFrame = "{{341, 150}, {853, 568}}";
+		};
+	};
+	A4927FAA10A0DB0500676138 /* XCBreakpointsBucket */ = {
+		isa = XCBreakpointsBucket;
+		name = "Project Breakpoints";
+		objects = (
+			A413D0C30EC4ECCD0046961B /* Test.cpp:5 */,
+			A413D0DA0EC4ED470046961B /* PlugLoadDll.h:133 */,
+			A413D0DD0EC4ED490046961B /* PlugLoadDll.h:126 */,
+			A413D0E40EC4EE3D0046961B /* PlugLoadDll.h:131 */,
+			A413D0E80EC4EF6C0046961B /* PlugLoadDll.h:124 */,
+			A4DE3C3A0ED93D9100F3F0B4 /* Test.cpp:17 */,
+		);
+	};
+	A4DE3C3A0ED93D9100F3F0B4 /* Test.cpp:17 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		delayBeforeContinue = 0;
+		fileReference = A4927F8B10A0D98C00676138 /* Test.cpp */;
+		functionName = "main()";
+		hitCount = 1;
+		lineNumber = 17;
+		location = Test;
+		modificationTime = 249118102.277889;
+		state = 1;
+	};
+}

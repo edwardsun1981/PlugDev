@@ -1,0 +1,1 @@
+del /s/A RHA *.~*;*.obj;*.tds;*.sup;*.cgl;*.ilk;*.idb;*.pdb;*.plg;*.udf;*.csm;vcl60.#*;*.str;*.sbr;*.pch;*.ncb;*.bsc;*.suo;*.suo.old;*.dsk;*.groupproj.local;*.cbproj.local;*.#00;*.vcproj.*.user;*.dep;*.exp;*.sdf;*.user;*.ipch;*.vs;.vs
